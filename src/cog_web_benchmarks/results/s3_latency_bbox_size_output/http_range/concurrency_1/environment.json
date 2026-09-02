@@ -1,0 +1,23 @@
+{
+  "case_file": "/mnt/bbox_size_test_cases.csv",
+  "rounds": 3,
+  "runs": 5,
+  "warmup": 1,
+  "modes": [
+    "fresh-client",
+    "reused-client"
+  ],
+  "concurrency": 1,
+  "order": "shuffle",
+  "seed": 42,
+  "gdal_config_non_secret": {
+    "AWS_DEFAULT_REGION": "ap-southeast-1",
+    "AWS_S3_ENDPOINT": "172.30.10.60:30900",
+    "AWS_S3_SIGNATURE_VERSION": "s3v4",
+    "AWS_VIRTUAL_HOSTING": "FALSE",
+    "AWS_HTTPS": "NO"
+  },
+  "python": "3.12.12 (main, Feb  4 2026, 20:21:31) [GCC 14.2.0]",
+  "platform": "Linux-6.10.14-linuxkit-x86_64-with-glibc2.41",
+  "rasterio_version": "1.4.4"
+}

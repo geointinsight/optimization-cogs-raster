@@ -1,0 +1,38 @@
+{
+  "usr_id": "gis-asset",
+  "collection_id": "6a3bfdd89e3416fefefdf90b",
+  "bbox": [
+    100.44261518528565,
+    14.89923534986945,
+    100.4448148615996,
+    14.90088510710491
+  ],
+  "rounds": 5,
+  "runs_per_round": 10,
+  "warmup_per_round": 5,
+  "read_mode": "cold",
+  "variant_order": "shuffle",
+  "seed": 42,
+  "s3_uris": {
+    "lzw_128": "s3://gis-asset/coverage/6a3bfdd89e3416fefefdf90b/cog/lzw_128.tif",
+    "lzw_256": "s3://gis-asset/coverage/6a3bfdd89e3416fefefdf90b/cog/lzw_256.tif",
+    "lzw_512": "s3://gis-asset/coverage/6a3bfdd89e3416fefefdf90b/cog/lzw_512.tif",
+    "deflate_128": "s3://gis-asset/coverage/6a3bfdd89e3416fefefdf90b/cog/deflate_128.tif",
+    "deflate_256": "s3://gis-asset/coverage/6a3bfdd89e3416fefefdf90b/cog/deflate_256.tif",
+    "deflate_512": "s3://gis-asset/coverage/6a3bfdd89e3416fefefdf90b/cog/deflate_512.tif",
+    "zstd_128": "s3://gis-asset/coverage/6a3bfdd89e3416fefefdf90b/cog/zstd_128.tif",
+    "zstd_256": "s3://gis-asset/coverage/6a3bfdd89e3416fefefdf90b/cog/zstd_256.tif",
+    "zstd_512": "s3://gis-asset/coverage/6a3bfdd89e3416fefefdf90b/cog/zstd_512.tif"
+  },
+  "gdal_config_non_secret": {
+    "AWS_DEFAULT_REGION": "ap-southeast-1",
+    "AWS_S3_ENDPOINT": "172.30.10.60:30900",
+    "AWS_S3_SIGNATURE_VERSION": "s3v4",
+    "AWS_VIRTUAL_HOSTING": "FALSE",
+    "AWS_HTTPS": "NO"
+  },
+  "python": "3.12.12 (main, Feb  4 2026, 20:21:31) [GCC 14.2.0]",
+  "platform": "Linux-6.10.14-linuxkit-x86_64-with-glibc2.41",
+  "rasterio_version": "1.4.4",
+  "numpy_version": "1.26.4"
+}

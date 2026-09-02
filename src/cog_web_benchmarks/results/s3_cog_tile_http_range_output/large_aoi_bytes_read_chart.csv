@@ -1,0 +1,4 @@
+scenario,bbox_pixels,blocksize,DEFLATE_bytes,ZSTD_bytes,LZW_bytes
+large_aoi_392x288px,392x288,128,628423,618903,829141
+large_aoi_392x288px,392x288,256,840293,826507,1111779
+large_aoi_392x288px,392x288,512,1676140,1646298,2215302

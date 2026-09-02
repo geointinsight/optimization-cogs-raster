@@ -1,0 +1,299 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "scenario": "interior",
+        "description": "Inside a 128 px tile; no grid boundary crossed",
+        "relative_to_reference": "same-size alignment control",
+        "width_px": 24,
+        "height_px": 18,
+        "centre_col_px": 5184,
+        "centre_row_px": 5184,
+        "expected_tiles_128": 1,
+        "expected_tiles_256": 1,
+        "expected_tiles_512": 1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              100.40155456075863,
+              14.89923534986945
+            ],
+            [
+              100.40375423707258,
+              14.89923534986945
+            ],
+            [
+              100.40375423707258,
+              14.90088510710491
+            ],
+            [
+              100.40155456075863,
+              14.90088510710491
+            ],
+            [
+              100.40155456075863,
+              14.89923534986945
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "scenario": "cross_128_edge",
+        "description": "Crosses a 128 px vertical boundary only",
+        "relative_to_reference": "same-size alignment control",
+        "width_px": 24,
+        "height_px": 18,
+        "centre_col_px": 5248,
+        "centre_row_px": 5184,
+        "expected_tiles_128": 2,
+        "expected_tiles_256": 1,
+        "expected_tiles_512": 1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              100.40742036426249,
+              14.89923534986945
+            ],
+            [
+              100.40962004057644,
+              14.89923534986945
+            ],
+            [
+              100.40962004057644,
+              14.90088510710491
+            ],
+            [
+              100.40742036426249,
+              14.90088510710491
+            ],
+            [
+              100.40742036426249,
+              14.89923534986945
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "scenario": "cross_256_edge",
+        "description": "Crosses a 256 px vertical boundary (also a 128 px boundary)",
+        "relative_to_reference": "same-size alignment control",
+        "width_px": 24,
+        "height_px": 18,
+        "centre_col_px": 5376,
+        "centre_row_px": 5184,
+        "expected_tiles_128": 2,
+        "expected_tiles_256": 2,
+        "expected_tiles_512": 1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              100.41915197127021,
+              14.89923534986945
+            ],
+            [
+              100.42135164758416,
+              14.89923534986945
+            ],
+            [
+              100.42135164758416,
+              14.90088510710491
+            ],
+            [
+              100.41915197127021,
+              14.90088510710491
+            ],
+            [
+              100.41915197127021,
+              14.89923534986945
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "scenario": "cross_512_edge",
+        "description": "Crosses a 512 px vertical boundary shared by all tested grids",
+        "relative_to_reference": "same-size alignment control",
+        "width_px": 24,
+        "height_px": 18,
+        "centre_col_px": 5632,
+        "centre_row_px": 5184,
+        "expected_tiles_128": 2,
+        "expected_tiles_256": 2,
+        "expected_tiles_512": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              100.44261518528565,
+              14.89923534986945
+            ],
+            [
+              100.4448148615996,
+              14.89923534986945
+            ],
+            [
+              100.4448148615996,
+              14.90088510710491
+            ],
+            [
+              100.44261518528565,
+              14.90088510710491
+            ],
+            [
+              100.44261518528565,
+              14.89923534986945
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "scenario": "cross_128_corner",
+        "description": "Crosses a 128 px grid corner only",
+        "relative_to_reference": "same-size alignment control",
+        "width_px": 24,
+        "height_px": 18,
+        "centre_col_px": 5248,
+        "centre_row_px": 5248,
+        "expected_tiles_128": 4,
+        "expected_tiles_256": 1,
+        "expected_tiles_512": 1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              100.40742036426249,
+              14.89336954636559
+            ],
+            [
+              100.40962004057644,
+              14.89336954636559
+            ],
+            [
+              100.40962004057644,
+              14.895019303601051
+            ],
+            [
+              100.40742036426249,
+              14.895019303601051
+            ],
+            [
+              100.40742036426249,
+              14.89336954636559
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "scenario": "cross_256_corner",
+        "description": "Crosses a 256 px grid corner (also a 128 px corner)",
+        "relative_to_reference": "same-size alignment control",
+        "width_px": 24,
+        "height_px": 18,
+        "centre_col_px": 5376,
+        "centre_row_px": 5376,
+        "expected_tiles_128": 4,
+        "expected_tiles_256": 4,
+        "expected_tiles_512": 1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              100.41915197127021,
+              14.881637939357873
+            ],
+            [
+              100.42135164758416,
+              14.881637939357873
+            ],
+            [
+              100.42135164758416,
+              14.883287696593333
+            ],
+            [
+              100.41915197127021,
+              14.883287696593333
+            ],
+            [
+              100.41915197127021,
+              14.881637939357873
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "scenario": "cross_512_corner",
+        "description": "Crosses a 512 px grid corner shared by all tested grids",
+        "relative_to_reference": "same-size alignment control",
+        "width_px": 24,
+        "height_px": 18,
+        "centre_col_px": 5632,
+        "centre_row_px": 5632,
+        "expected_tiles_128": 4,
+        "expected_tiles_256": 4,
+        "expected_tiles_512": 4
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              100.44261518528565,
+              14.858174725342437
+            ],
+            [
+              100.4448148615996,
+              14.858174725342437
+            ],
+            [
+              100.4448148615996,
+              14.859824482577897
+            ],
+            [
+              100.44261518528565,
+              14.859824482577897
+            ],
+            [
+              100.44261518528565,
+              14.858174725342437
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

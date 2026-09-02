@@ -1,0 +1,8 @@
+scenario,description,min_x,min_y,max_x,max_y,relative_to_reference,width_px,height_px,centre_col_px,centre_row_px,expected_tiles_128,expected_tiles_256,expected_tiles_512
+interior,Inside a 128 px tile; no grid boundary crossed,100.401554560758626,14.899235349869450,100.403754237072576,14.900885107104910,same-size alignment control,24,18,5184,5184,1,1,1
+cross_128_edge,Crosses a 128 px vertical boundary only,100.407420364262492,14.899235349869450,100.409620040576442,14.900885107104910,same-size alignment control,24,18,5248,5184,2,1,1
+cross_256_edge,Crosses a 256 px vertical boundary (also a 128 px boundary),100.419151971270210,14.899235349869450,100.421351647584160,14.900885107104910,same-size alignment control,24,18,5376,5184,2,2,1
+cross_512_edge,Crosses a 512 px vertical boundary shared by all tested grids,100.442615185285646,14.899235349869450,100.444814861599596,14.900885107104910,same-size alignment control,24,18,5632,5184,2,2,2
+cross_128_corner,Crosses a 128 px grid corner only,100.407420364262492,14.893369546365591,100.409620040576442,14.895019303601051,same-size alignment control,24,18,5248,5248,4,1,1
+cross_256_corner,Crosses a 256 px grid corner (also a 128 px corner),100.419151971270210,14.881637939357873,100.421351647584160,14.883287696593333,same-size alignment control,24,18,5376,5376,4,4,1
+cross_512_corner,Crosses a 512 px grid corner shared by all tested grids,100.442615185285646,14.858174725342437,100.444814861599596,14.859824482577897,same-size alignment control,24,18,5632,5632,4,4,4

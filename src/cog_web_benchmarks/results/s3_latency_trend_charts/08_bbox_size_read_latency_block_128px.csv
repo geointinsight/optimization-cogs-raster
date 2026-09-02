@@ -1,0 +1,19 @@
+bbox_request_size,bbox_pixels,scenario,compression,blocksize_px,mode,concurrency,samples,tiles_touched,bbox_p90_ms,bbox_average_ms,expected_bytes_per_bbox,valid_get_ratio,source_csv
+Point Inspection,12 × 9 px,tiny_12x9px,DEFLATE,128,reused-client,1,15,1,174.8991663997003,104.42050566659115,52579,1.0,s3_latency_bbox_size_output/http_range/concurrency_1/http_range_latency_summary.csv
+Point Inspection,12 × 9 px,tiny_12x9px,LZW,128,reused-client,1,15,1,139.48993399899337,129.7991112670085,69651,1.0,s3_latency_bbox_size_output/http_range/concurrency_1/http_range_latency_summary.csv
+Point Inspection,12 × 9 px,tiny_12x9px,ZSTD,128,reused-client,1,15,1,282.28985800087685,166.91352493386754,51811,1.0,s3_latency_bbox_size_output/http_range/concurrency_1/http_range_latency_summary.csv
+Parcel View,24 × 18 px,small_24x18px,DEFLATE,128,reused-client,1,15,1,204.3526252011361,132.88815846705498,52579,1.0,s3_latency_bbox_size_output/http_range/concurrency_1/http_range_latency_summary.csv
+Parcel View,24 × 18 px,small_24x18px,LZW,128,reused-client,1,15,1,231.5190256005735,139.57927513377703,69651,1.0,s3_latency_bbox_size_output/http_range/concurrency_1/http_range_latency_summary.csv
+Parcel View,24 × 18 px,small_24x18px,ZSTD,128,reused-client,1,15,1,208.6275749999913,116.62611393330735,51811,1.0,s3_latency_bbox_size_output/http_range/concurrency_1/http_range_latency_summary.csv
+Reference Area,49 × 36 px,reference_49x36px,DEFLATE,128,reused-client,1,15,2,311.96698359926813,207.99737233343572,104009,1.0,s3_latency_bbox_size_output/http_range/concurrency_1/http_range_latency_summary.csv
+Reference Area,49 × 36 px,reference_49x36px,LZW,128,reused-client,1,15,2,414.42220820026705,251.0522445331541,137850,1.0,s3_latency_bbox_size_output/http_range/concurrency_1/http_range_latency_summary.csv
+Reference Area,49 × 36 px,reference_49x36px,ZSTD,128,reused-client,1,15,2,359.11138379960903,225.74791393247628,102669,1.0,s3_latency_bbox_size_output/http_range/concurrency_1/http_range_latency_summary.csv
+Map View,98 × 72 px,viewport_98x72px,DEFLATE,128,reused-client,1,15,2,272.3833000003651,192.96381393335955,104009,1.0,s3_latency_bbox_size_output/http_range/concurrency_1/http_range_latency_summary.csv
+Map View,98 × 72 px,viewport_98x72px,LZW,128,reused-client,1,15,2,380.5060670005332,267.9753696662374,137850,1.0,s3_latency_bbox_size_output/http_range/concurrency_1/http_range_latency_summary.csv
+Map View,98 × 72 px,viewport_98x72px,ZSTD,128,reused-client,1,15,2,363.18716639871127,252.63567506626714,102669,1.0,s3_latency_bbox_size_output/http_range/concurrency_1/http_range_latency_summary.csv
+Wide View,196 × 144 px,viewport_196x144px,DEFLATE,128,reused-client,1,15,6,1054.8467342014192,781.8626920001407,315912,1.0,s3_latency_bbox_size_output/http_range/concurrency_1/http_range_latency_summary.csv
+Wide View,196 × 144 px,viewport_196x144px,LZW,128,reused-client,1,15,6,1650.6564174000232,1038.5992920668893,417819,1.0,s3_latency_bbox_size_output/http_range/concurrency_1/http_range_latency_summary.csv
+Wide View,196 × 144 px,viewport_196x144px,ZSTD,128,reused-client,1,15,6,1333.486625599471,844.5611365340786,311204,1.0,s3_latency_bbox_size_output/http_range/concurrency_1/http_range_latency_summary.csv
+Analysis Area,392 × 288 px,large_aoi_392x288px,DEFLATE,128,reused-client,1,15,12,2528.3121177992143,1717.885209199206,628423,1.0,s3_latency_bbox_size_output/http_range/concurrency_1/http_range_latency_summary.csv
+Analysis Area,392 × 288 px,large_aoi_392x288px,LZW,128,reused-client,1,15,12,2376.591517199995,1673.1214506665613,829141,1.0,s3_latency_bbox_size_output/http_range/concurrency_1/http_range_latency_summary.csv
+Analysis Area,392 × 288 px,large_aoi_392x288px,ZSTD,128,reused-client,1,15,12,2168.0234839994228,1605.1597201330878,618903,1.0,s3_latency_bbox_size_output/http_range/concurrency_1/http_range_latency_summary.csv
